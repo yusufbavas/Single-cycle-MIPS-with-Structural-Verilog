@@ -1,4 +1,3 @@
-// 2x1 32 bit mux. a ve b girdileri 32 bit değerlerdir. s 1 bit seçme biti, result 32 bit sonucu temsil eder.
 module mux_2x1(a,b,s,result);
 	
 input[31:0] a,b;

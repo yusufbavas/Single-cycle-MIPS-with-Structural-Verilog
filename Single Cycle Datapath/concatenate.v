@@ -1,4 +1,3 @@
-// 5 bitlik input 32 bite tamamlanır.
 module concatenate(in,out);
 
 input [4:0]in;

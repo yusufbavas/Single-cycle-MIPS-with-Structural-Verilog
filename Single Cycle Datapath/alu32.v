@@ -17,7 +17,6 @@ sl s2(a,b[4:0],r6);
 nor_32bit nor32(r7,a,b);
 
 mux_8x1 mux(r0,r1,r2,r3,r4,r5,r6,r7,s,result);
-// + ve - işlemleri için 2 ayrı V degeri oluşur. Bu işlemler için 2. bit ayırt edici bit olduğu için onu kullandım.
 mux_2x1_1bit VGate(V2,V1,s[1],V);
 zero z(result,Z);
 

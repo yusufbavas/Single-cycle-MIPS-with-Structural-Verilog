@@ -1,4 +1,3 @@
-// 32 bit iki sayiya nor işlemi uygulanır.
 module nor_32bit(result,a,b);
 input[31:0] a,b;
 output [31:0] result;

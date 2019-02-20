@@ -1,4 +1,3 @@
-// 2x1 5 bit mux. a ve b girdileri 5 bit değerlerdir. s 1 bit seçme biti, result 5 bit sonucu temsil eder.
 module mux_2x1_5bit(a,b,s,result);
 	
 input[4:0] a,b;

@@ -1,4 +1,3 @@
-// 8x1 mux için 2 adet 4x1 ve 1 adet 2x1 mux kullanılır.
 module mux_8x1(a,b,c,d,e,f,g,h,s,result);
 	
 input[31:0] a,b,c,d,e,f,g,h;

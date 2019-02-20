@@ -1,4 +1,3 @@
-// 4x1 32 bit mux. 4x1 mux için 3 adet 2x1 mux kullanılır.
 module mux_4x1(a,b,c,d,s1,s0,result);
 	
 input[31:0] a,b,c,d;

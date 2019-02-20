@@ -1,5 +1,3 @@
-// a ve b degerleri bir bit toplanacak degerleri, carry_in elde girisini, sum toplam sonucunu, carry_out elde cıkışını temsil eder.
-// Full adder için 2 adet half adder kullanılır. 
 module full_adder(a,b,carry_in,sum,carry_out);
 	
 input a,b,carry_in;

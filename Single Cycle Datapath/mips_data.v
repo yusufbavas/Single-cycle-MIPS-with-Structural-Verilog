@@ -1,4 +1,3 @@
-// memoryden okuma ve yazma islemleri yapilir.
 module mips_data (data_out,data_in,mem_write,mem_read,adr,clk);
 
 	output reg[31:0] data_out;
@@ -10,7 +9,6 @@ module mips_data (data_out,data_in,mem_write,mem_read,adr,clk);
 
 always @(negedge clk)
 begin
-	// memoryden okuma yapilacak ise data'nin adresinci elemani sonuca atilir.
 	if (mem_read == 1'b1)
 	begin
 		data_out = data[adr];
@@ -19,7 +17,6 @@ end
 
 always @(posedge clk)
 begin
-	// memorye yazma yapilacak ise datanin adresinci elemanina sonuc yazilarak memory dosyasine yazilir.
 	if (mem_write == 1'b1)
 	begin	
 		data[adr] = data_in;

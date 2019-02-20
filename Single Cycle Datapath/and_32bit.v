@@ -1,4 +1,3 @@
-// 32 bit iki sayiya and işlemi uygulanır.
 module and_32bit(result,a,b);
 input[31:0] a,b;
 output [31:0] result;

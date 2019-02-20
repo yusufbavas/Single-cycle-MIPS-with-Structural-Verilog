@@ -1,4 +1,3 @@
-// 32 bitlik bir sayının tum bitleri bir deger ile or işlemine sokulur.
 module or_32bit_v2(result,a,b);
 input[31:0] a;
 input b;

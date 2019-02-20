@@ -1,4 +1,3 @@
-// instructionlardan PC'inci eleman seçilir ve instruction içine atılır.
 module mips_instructions (instruction,PC);
 
 	output [31:0] instruction;

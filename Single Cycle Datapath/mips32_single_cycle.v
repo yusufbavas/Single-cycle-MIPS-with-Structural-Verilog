@@ -1,4 +1,3 @@
-// datapath uygun moduller ile olusturulur.
 module mips32_single_cycle(result,clk);
 
 input clk;

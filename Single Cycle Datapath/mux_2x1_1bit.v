@@ -1,4 +1,3 @@
-// 2x1 mux'un girdileri 1 bit olan versiyonu.
 module mux_2x1_1bit(a,b,s,result);
 	
 input a,b;

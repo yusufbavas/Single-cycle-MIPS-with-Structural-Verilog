@@ -1,4 +1,3 @@
-// 16 bitlik input most significant bite göre 32 bite tamamlanir.
 module sign_extend(in,out);
 
 input [15:0]in;

@@ -1,4 +1,3 @@
-// 16 bitlik input 0 ile 32 bite tamamlanir.
 module zero_extend(in,out);
 
 input [15:0]in;

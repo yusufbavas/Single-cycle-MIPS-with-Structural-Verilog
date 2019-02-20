@@ -1,8 +1,3 @@
-/* 
-32 bit iki sayi için toplama ve çıkarma işlemi yapılır. toplama işleminde carry in 0 olur ve xor'da sonuç değişmez.
-Böylece toplama işlemi yapılmış olur. Çıkarma işleminde carry_in'e 1 verilir ve sayı xor lanir. Böylece çıkarma işlemi de yapılmış olur.
-32 bit adder için her bitte full_adder kullanılır. 
-*/
 module adder_32bit(a,b,sum,carry_in,carry_out);
 
 input [31:0] a,b;

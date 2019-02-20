@@ -1,6 +1,3 @@
-// Verinin tum bitlerinin 0 olup olmadigi kontrol edilir.
-// 32 bit verinin tum bitleri or işlemine sokulur. Eğer herhangi biri 1 ise sonuç 1 hepsi 0 ise sonuç 0 çıkar.
-// Bu sonuç not'laranak Z degeri bulunur.
 module zero(a,Z);
 
 input[31:0] a;
